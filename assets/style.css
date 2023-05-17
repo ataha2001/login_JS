@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: #eee; */
+    padding: 10px;
+}
+.pro-container .card {
+    width: 25%;
+    height: 500px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.pro-container .card img {
+    width: 100%;
+    height: 250px;
+    
+}
+.pro-container .card .card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
